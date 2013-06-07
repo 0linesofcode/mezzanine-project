@@ -326,19 +326,19 @@ DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
 # Check fabfile.py for defaults.
 
 FABRIC = {
-     "SSH_USER": "root",  # SSH username
-     "SSH_PASS":  "arrow3668", # SSH password (consider key-based authentication)
+     "SSH_USER": "",  # SSH username
+     "SSH_PASS":  "", # SSH password (consider key-based authentication)
      "SSH_KEY_PATH":  "", # Local path to SSH key file, for key-based auth
-     "HOSTS": ["151.236.218.253", ], # List of hosts to deploy to
+     "HOSTS": ["", ], # List of hosts to deploy to
      "VIRTUALENV_HOME":  "/var/www/.virtualenv/newenv", # Absolute remote path for virtualenvs
      "PROJECT_NAME": "arr", # Unique identifier for project
      "REQUIREMENTS_PATH": "requirements/project.txt", # Path to pip requirements, relative to project
      "GUNICORN_PORT": 10081, # Port gunicorn will listen on
      "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
-     "LIVE_HOSTNAME": "151.236.218.253", # Host for public site.
-     "REPO_URL": "git://github.com/0linesofcode/mezzanine-project.git", # Git or Mercurial remote repo URL for the project
-     "DB_PASS": "arrow3668", # Live database password
-     "ADMIN_PASS": "arrow3668", # Live admin user password
+     "LIVE_HOSTNAME": "", # Host for public site.
+     "REPO_URL": "", # Git or Mercurial remote repo URL for the project
+     "DB_PASS": "", # Live database password
+     "ADMIN_PASS": "", # Live admin user password
  }
 
 ##################
